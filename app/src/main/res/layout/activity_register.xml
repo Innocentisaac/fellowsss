@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:background="@color/coloryellow"
+    tools:context=".activities.MainActivity">
+
+    <TextView
+        android:id="@+id/tvregister"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Register"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/etfname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/firstname"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/etlname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/lastname"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/etemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:inputType="textEmailAddress"
+        />
+    <EditText
+        android:id="@+id/etphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="phone"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:inputType="phone"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="gender"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+    <Spinner
+        android:id="@+id/spgender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/gender"></Spinner>
+
+
+ <!--   <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <RadioButton
+            android:id="@+id/rmale"
+            android:layout_width="130sp"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:textSize="30dp"
+            />
+
+
+        <RadioButton
+            android:id="@+id/rfemale"
+            android:layout_width="130sp"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:textSize="25dp"
+            />
+    </RadioGroup> -->
+
+
+
+    <TextView
+        android:id="@+id/tvstate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/state"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+
+        />
+
+    <Spinner
+        android:id="@+id/spstates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/State"
+        android:layout_margin="20dp"
+        >
+
+    </Spinner>
+
+    <Button
+        android:id="@+id/bregister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Register"
+        android:textStyle="bold"
+        android:layout_margin="30dp"
+        />
+
+</LinearLayout>
+</ScrollView>

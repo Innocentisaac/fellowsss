@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/coloryellow"
+    tools:context=".activities.MainActivity">
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/innofine"
+        android:textStyle="bold"
+        android:textColor="@color/colorpink"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:layout_marginBottom="20dp" />
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="username"
+    android:textStyle="bold"
+    android:textSize="20dp"
+    android:inputType="text"
+    android:layout_marginBottom="40dp"
+    />
+
+
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="password"
+    android:textStyle="bold"
+    android:textSize="20dp"
+    android:inputType="textPassword"
+        android:layout_marginBottom="40dp"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:textColor="@color/colorpink"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginBottom="40dp"
+        
+        />
+    <EditText
+        android:id="@+id/etfpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/forgotpassword"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/tvnotregisterd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/notregistered"
+        android:textColor="@color/colorwhite"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_marginBottom="40dp"
+
+        />
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
